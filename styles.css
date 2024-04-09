@@ -1,0 +1,41 @@
+.resume-table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+    .resume-table td {
+        vertical-align: top;
+        padding: 10px;
+    }
+
+    .resume-table img {
+        margin-top: 50px;
+        width: 200px;
+        height: auto;
+    }
+
+    .resume-table h2 {
+        margin-top: 0;
+    }
+
+.contact-info {
+    width: 250px; /* Ширина ячейки для контактной информации */
+}
+
+.resume-info {
+    width: 70%; /* Ширина ячейки для информации о резюме */
+}
+
+    .resume-info li {
+        list-style-type: none;
+    }
+
+        .resume-info li::before {
+            content: "•"; /* Заменяем маркеры списка на точки */
+            margin-right: 5px;
+        }
+
+    .resume-info p {
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
